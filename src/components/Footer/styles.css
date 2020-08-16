@@ -1,0 +1,45 @@
+.Footer{
+    height: 15vh;
+    background: black;
+    color: white;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
+}
+.Footer .Content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Footer .Social .fa.fa-github{
+    position: relative;
+    font-size: 30px;
+    color: #4684AF;
+    margin-left: 1rem;
+    
+}
+.Footer .Social .fa.fa-instagram{
+    position: relative;
+    font-size: 30px;
+    color: #4684AF;
+    margin-left: 1rem;
+}
+.Footer .Social .fa.fa-instagram:hover{
+  color: white;
+}
+.Footer .Social .fa.fa-github:hover{
+    color: white;                                   
+}
+.Footer .Copy h3{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.Footer h4{
+    margin-top: .5rem;
+    font-size: 1em;
+    font-weight: 400;
+}

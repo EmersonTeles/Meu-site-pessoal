@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.Banner{
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+    z-index: 0;
+}
+.Banner img{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.Banner .Profissoes{
+    position: fixed;
+    padding-bottom: 15vh;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;
+}
+.Banner h1{
+    color: white;
+    font-size: 4em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.Banner p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size:1.4em;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 1rem;
+
+}

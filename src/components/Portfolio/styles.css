@@ -1,0 +1,36 @@
+
+.portfolio{
+    max-width: 100%;
+    height: fit-content;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: white;
+    color: rgb(180, 180, 180);
+    z-index: 10;
+    
+}
+.portfolio .campo{
+    margin: 5rem;
+    max-width: 80vw;
+    height: fit-content;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+}
+.portfolio .campo h1{
+    margin-bottom: 3rem;
+    font-size: 2.5em;
+}
+.portfolio .campo .fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portfolio .campo .fotos img{
+    max-width: 30%;
+    max-height: 62vh;
+    margin: 0.5rem;
+}

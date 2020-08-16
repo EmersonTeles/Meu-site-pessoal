@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+nav{
+    height: 6rem;
+    z-index: 100;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1rem;
+}
+nav .copy{
+    margin-top: 0vh;
+}
+nav .made{
+    font-size: 2em;
+}
+nav .by{
+    color: rgb(0, 92, 128);
+    font-family: 'Merienda One', cursive;
+    font-size: 2.5em;
+    margin-right: 0.2rem;
+    margin-bottom: 0.3rem;
+}
