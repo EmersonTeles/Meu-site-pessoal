@@ -21,22 +21,40 @@ export default function Portfolio(){
         easing: 'ease-in-out', // default easing for AOS animations
         once: false, // whether animation should happen only once - while scrolling down
         mirror: false, // whether elements should animate out while scrolling past them
-        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+        anchorPlacement: 'top-top', // defines which position of the element regarding to window should trigger the animation
       });
     return(
         <div className="portfolio">
             <div className="campo">
                 <h1>Check out some of my best work</h1>
                 <div className="fotos">
-                    <img data-aos="fade" data-aos-delay="0" src={foto1} alt="foto"/>
-                    <img data-aos="fade" data-aos-delay="300" src={foto4} alt="foto"/>
-                    <img data-aos="fade" data-aos-delay="600" src={foto7} alt="foto"/>
-                    <img data-aos="fade" data-aos-offset="400" data-aos-delay="0"src={foto2} alt="foto"/>
-                    <img data-aos="fade" data-aos-offset="400" data-aos-delay="300"src={foto6} alt="foto"/>
-                    <img data-aos="fade" data-aos-offset="400" data-aos-delay="600"src={foto8} alt="foto"/>
-                    <img data-aos="fade" data-aos-offset="700" data-aos-delay="0"src={foto3} alt="foto"/>
-                    <img data-aos="fade" data-aos-offset="700" data-aos-delay="300"src={foto5} alt="foto"/>
-                    <img data-aos="fade" data-aos-offset="700" data-aos-delay="600"src={foto9} alt="foto"/>
+                    <div>
+                        <img data-aos="fade" src={foto1} alt="foto"/>
+                    </div>
+                    <div>
+                        <img data-aos="fade" src={foto2} alt="foto"/>
+                    </div>
+                    <div>
+                        <img data-aos="fade" src={foto3} alt="foto"/>
+                    </div>
+                    <div>
+                        <img data-aos="fade" src={foto4} alt="foto"/>
+                    </div>
+                    <div>
+                        <img data-aos="fade" src={foto5} alt="foto"/>
+                    </div>
+                    <div>
+                        <img data-aos="fade" src={foto6} alt="foto"/>
+                    </div>
+                    <div>
+                        <img data-aos="fade" src={foto7} alt="foto"/>
+                    </div>
+                    <div>
+                        <img data-aos="fade" src={foto8} alt="foto"/>
+                    </div>
+                    <div>
+                        <img data-aos="fade" src={foto9} alt="foto"/>
+                    </div>
                 </div>
             </div>
         </div>

@@ -10,13 +10,12 @@
     overflow: hidden;
 }
 .about .foto img{
-    width: 100%;
-    position: relative;
-    bottom:6rem;
+    max-width: 100%;
+    transform: translateY(-50px);
     z-index: 9;
 }
 .about .description{
-    background: rgb(240, 240, 240);
+    background: rgb(235, 235, 235);
     width: 50%;
     display: flex;
     align-items: center;
@@ -33,12 +32,12 @@
 .about .description h1{
     text-align: left;
     color: rgb(80,80,80);
-    font-size: 3.5em;
+    font-size: 3rem;
 
 }
 .about .description p{
     color: rgb(180, 180, 180);
-    font-size: 1.8em;
+    font-size: 1.8rem;
     margin-top: 2.5rem;
     padding-left: 4px;
 }

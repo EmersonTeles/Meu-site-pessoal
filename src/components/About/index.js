@@ -7,7 +7,6 @@ export default function About(){
         <div className="about">
             <div className="foto">
                 <img src={perfil} alt="Foto de Perfil" />
-                <div className="filter"></div>
             </div>
             <div className="description">
                 <div className="text">

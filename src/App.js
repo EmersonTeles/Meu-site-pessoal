@@ -13,7 +13,7 @@ class App extends Component{
       <div className="Container">
         <Header/>
         <main>
-          <Banner/>
+          <Banner className="Banner"/>
           <About/>
           <Portfolio/>
         </main>

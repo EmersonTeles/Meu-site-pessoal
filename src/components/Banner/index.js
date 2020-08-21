@@ -8,10 +8,11 @@ export default function Banner (){
     AOS.init();
     return(
         <div className="Banner">
-            <img src={fotoFundo} alt="Foto de fundo"/>
+            <div className="foto">
+                <img src={fotoFundo} alt="Foto de fundo"/>
+            </div>
             <div data-aos="fade-up" data-aos-delay="1000" className="Profissoes">
                 <h1>Front-End Developer.</h1>
-
                 <p>also a photographer in free time</p>
             </div>
         </div>
