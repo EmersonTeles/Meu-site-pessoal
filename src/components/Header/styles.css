@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
 nav{
     height: 6rem;
+    width: 100%;
     z-index: 100;
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: relative;
+    position: absolute;
     top: 1rem;
 }
 nav .copy{

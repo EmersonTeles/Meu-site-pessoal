@@ -3,6 +3,7 @@ import './styles.css';
 import perfil from '../../assets/Perfil2.jpg';
 
 export default function About(){
+    const unb = ""
     return(
         <div className="about">
             <div className="foto">
