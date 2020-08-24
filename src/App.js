@@ -7,15 +7,14 @@ import Footer from './components/Footer';
 import About from './components/About';
 
 class App extends Component{
-  
   render(){
     return (
       <div className="Container">
         <Header/>
         <main>
           <Banner className="Banner"/>
-          <About/>
           <Portfolio/>
+          <About/>
         </main>
         <Footer/>
       </div>

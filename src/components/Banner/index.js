@@ -9,7 +9,6 @@ export default function Banner (){
     return(
         <div className="Banner">
             <div className="foto">
-                <img src={fotoFundo} alt="Foto de fundo"/>
             </div>
             <div data-aos="fade-up" data-aos-delay="1000" className="Profissoes">
                 <h1>Desenvolvedor Front Web</h1>

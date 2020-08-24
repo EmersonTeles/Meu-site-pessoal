@@ -10,14 +10,24 @@
     justify-content: center;
     z-index: 0;
 }
-.Banner img{
+.Banner .foto{
+    width: 100%;
+    height: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
-    max-width: 100%;
+
+    background-image: url('../../assets/Schema 02 null.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .Banner .Profissoes{
+    width: 100%;
+    height: 100%;
     position: fixed;
+    top:0;
+    left: 0;
     display: flex;
     flex-direction: column;   
     justify-content: center; 
@@ -28,46 +38,46 @@
     font-size: 4em;
     font-weight: 800;
     margin-bottom: 1rem;
+    text-align: center;
 }
 .Banner p{
     color: white;
     font-size: 1.6em;
     font-weight: 500;
     margin-bottom: 1rem;
+    text-align: center;
 }
-@media(max-width:1150px){
-    .Banner{
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .Banner .foto{
-        height: 100%;
-        width: 100%;
-    }
-    .Banner .foto img{
-        max-height: 100%;
-        position: fixed;
-        top: 0;
-    }
-    .Banner .Profissoes{
-        position: fixed;
-        border: 2px solid white;
-    }
+@media(max-width:1000px){
     .Banner h1{
-        color: white;
-        font-size: 4em;
-        font-weight: 800;
-        margin-bottom: 1rem;
+        font-size: 3.5em;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
     }
     .Banner p{
-        color: white;
-        font-size:1.4em;
-        text-transform: uppercase;
-        font-weight: 500;
-        margin-bottom: 1rem;
-        text-align: center;
+        font-size: 1.4em;
+    }
+}
+@media(max-width:750px){
+    .Banner h1{
+        font-size: 3em;
+    }
+    .Banner p{
+        font-size: 1.2em;
+    }
+}
+@media(max-width:410px){
+    .Banner h1{
+        font-size: 2.4em;
+    }
+    .Banner p{
+        font-size: 1em;
+    }
+}
+@media(max-width:300px){
+    .Banner h1{
+        font-size: 2em;
+    }
+    .Banner p{
+        font-size: 0.8em;
     }
 }
