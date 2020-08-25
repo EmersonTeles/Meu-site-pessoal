@@ -31,17 +31,19 @@
 .about .description h1{
     text-align: left;
     color: rgb(80,80,80);
-    font-size: 3em;
+    font-size: 3rem;
+    
 }
 .about .description p,a{
-    color: rgb(180, 180, 180);
+    color: rgb(150, 150, 150);
     font-size: 1.8rem;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
     padding-left: 4px;
     text-decoration:none;
 }
 .about .description a{
-    color: skyblue;
+    color: rgb(83, 155, 221);
+    padding: 0;
 }
 @media(max-width: 1350px){
     .about .description h1{
@@ -49,16 +51,12 @@
     }
     .about .description p,a{
         font-size: 1.6rem;
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
 }
-@media(max-height:650px){
-    .about .description h1{
-        font-size: 2.5em;
-    }
-    .about .description p,a{
-        font-size: 1.6rem;
-        margin-top: 2rem;
+@media(max-height: 655px){
+    .about{
+        height: 460px;
     }
 }
 @media(max-width: 1020px){
@@ -66,12 +64,15 @@
         font-size: 2em;
     }
     .about .description p,a{
-        color: rgb(140, 140, 140);
         font-size: 1.5rem;
-        margin-top: 1.8rem
     }
-    .about .description a{
-        color: skyblue;
+}
+@media(max-width: 1020px){
+    .about .description h1{
+        font-size: 1.8em;
+    }
+    .about .description p,a{
+        font-size: 1.5rem;
     }
 }
 @media(max-width: 800px){
@@ -92,12 +93,12 @@
         align-items: center;
     }
     .about .description h1{
-        font-size: 1.6em;
+        font-size: 2em;
         text-align: center;
     }
     .about .description p,a{
-        font-size: 1.4rem;
-        margin-top: 1.5rem;
+        font-size: 1.6rem;
         text-align: center;
+        padding: 0;
     }
 }
