@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import fotoFundo from '../../assets/Schema 02 null.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

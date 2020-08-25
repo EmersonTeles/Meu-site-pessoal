@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import perfil from '../../assets/Perfil2.jpg';
 
 export default function About(){
     const unb = "unb.br"
