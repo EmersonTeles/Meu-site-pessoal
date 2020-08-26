@@ -1,11 +1,11 @@
-import './app.css';
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import About from './components/About';
-
+/*import './app.css';
+*/
 class App extends Component{
   render(){
     return (
