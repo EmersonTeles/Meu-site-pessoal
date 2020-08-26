@@ -34,11 +34,11 @@
     font-size: 3rem;
     
 }
-.about .description p,a{
+.about .description .biografia,.unb{
     color: rgb(150, 150, 150);
     font-size: 1.8rem;
     margin-top: 1rem;
-    padding-left: 4px;
+    padding-left: 2px;
     text-decoration:none;
 }
 .about .description a{
@@ -49,30 +49,32 @@
     .about .description h1{
         font-size: 2.5em;
     }
-    .about .description p,a{
+    .about .description .biografia,.unb{
         font-size: 1.6rem;
         margin-top: 0rem;
-    }
-}
-@media(max-height: 655px){
-    .about{
-        height: 460px;
     }
 }
 @media(max-width: 1020px){
     .about .description h1{
         font-size: 2em;
     }
-    .about .description p,a{
+    .about .description .biografia,.unb{
         font-size: 1.5rem;
+        padding-left: 1px;
     }
 }
-@media(max-width: 1020px){
+@media(max-width: 920px){
     .about .description h1{
-        font-size: 1.8em;
+        font-size: 1.9em;
     }
-    .about .description p,a{
-        font-size: 1.5rem;
+    .about .description .biografia,.unb{
+        font-size: 1.4rem;
+        padding-left: 1px;
+    }
+}
+@media(max-height: 655px){
+    .about{
+        height: 460px;
     }
 }
 @media(max-width: 800px){
@@ -96,9 +98,28 @@
         font-size: 2em;
         text-align: center;
     }
-    .about .description p,a{
+    .about .description .biografia,.unb{
+        color: rgb(110, 110, 110);
         font-size: 1.6rem;
         text-align: center;
         padding: 0;
+    }
+}
+@media(max-width: 470px){
+    .about .description h1{
+        font-size: 1.6em;
+    }
+    .about .description .biografia,.unb{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+}
+@media(max-width: 330px){
+    .about .description h1{
+        font-size: 1.5em;
+    }
+    .about .description .biografia,.unb{
+        font-size: 1.2rem;
+        text-align: center;
     }
 }

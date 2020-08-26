@@ -6,33 +6,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     position: relative;
     bottom: 0;
 }
 .Footer .Content{
+    height: 12vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
-.Footer .Social .fa.fa-github{
+.Social{
+    display: flex;
+    gap:1rem;
+}
+.Footer .Social .fa{
     position: relative;
     font-size: 30px;
     color: #4684AF;
-    margin-left: 1rem;
-    
 }
-.Footer .Social .fa.fa-instagram{
-    position: relative;
-    font-size: 30px;
-    color: #4684AF;
-    margin-left: 1rem;
-}
-.Footer .Social .fa.fa-instagram:hover{
+.Footer .Social .fa:hover{
   color: white;
-}
-.Footer .Social .fa.fa-github:hover{
-    color: white;                                   
 }
 .Footer .Copy h3{
     font-size: 1.3em;
@@ -43,4 +37,44 @@
     margin-top: .5rem;
     font-size: 1em;
     font-weight: 400;
+}
+@media(max-height: 650px){
+    .Footer{
+        height: 80px;
+    }
+    .Content{
+        height: 70px;
+    }
+}
+@media(max-width: 440px){
+    .Footer{
+        height: 80px;
+        bottom: 0;
+    }
+    .Content{
+        height: 70px;
+        bottom: 0;
+    }
+    .Social{
+        display: flex;
+        gap:0.5rem;
+    }
+    .Footer .Social .fa{
+        position: relative;
+        font-size: 25px;
+        color: #4684AF;
+    }
+    .Footer .Social .fa:hover{
+      color: white;
+    }
+    .Footer .Copy h3{
+        font-size: 1em;
+        font-weight: 400;
+        text-align: center;
+    }
+    .Footer h4{
+        margin-top: .5rem;
+        font-size: 0.8em;
+        font-weight: 300;
+    }
 }

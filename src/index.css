@@ -3,6 +3,10 @@
     padding: 0;
     border: 0;
     font-family: 'Raleway', sans-serif;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 ::-webkit-scrollbar {
     width: 8px;
