@@ -24,6 +24,17 @@ nav .by{
     margin-right: 0.2rem;
     margin-bottom: 0.3rem;
 }
+@media(min-width:1600px){
+    nav{
+        height: 8rem;
+    }
+    nav .made{
+        font-size: 2.4vw;
+    }
+    nav .by{
+        font-size: 3vw;
+    }
+}
 @media (max-width:1080px){
     nav{
         position: absolute;

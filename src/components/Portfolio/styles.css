@@ -36,9 +36,3 @@
 .portfolio .campo .fotos img{
     width: 100%;
 }
-@media(min-width:2048px){
-    .portfolio .campo{
-        max-width: 50%;
-    }
-}
-@media(max-width: 1300px)
