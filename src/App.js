@@ -4,7 +4,7 @@ import Banner from './components/Banner';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import About from './components/About';
-import './App.css';
+import './appIndex.css';
 class App extends Component{
   render(){
     return (
