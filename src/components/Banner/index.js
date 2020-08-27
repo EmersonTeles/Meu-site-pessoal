@@ -10,7 +10,7 @@ export default function Banner (){
             <div className="foto">
             </div>
             <div data-aos="fade-up" data-aos-delay="1000" className="Profissoes">
-                <h1>Desenvolvedor Front Web</h1>
+                <h1>Desenvolvedor Web &amp; Fotógrafo.</h1>
                 <p>Transformando o mundo um bit por vez</p>
             </div>
         </div>
