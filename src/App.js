@@ -1,22 +1,16 @@
-import React, { Component } from 'react';
-import Header from './components/Header';
-import Banner from './components/Banner';
-import Portfolio from './components/Portfolio';
-import Footer from './components/Footer';
-import About from './components/About';
-import './appIndex.css';
+import React, { Component, lazy, Suspense } from 'react';
+import Loader from './components/Loader';
+const PageDefault = lazy( () => import('./components/PageDefault'));
+
 class App extends Component{
   render(){
+
     return (
-      <div className="Container">
-        <Header/>
-        <main>
-          <Banner className="Banner"/>
-          <Portfolio/>
-          <About/>
-        </main>
-        <Footer/>
-      </div>
+      <Suspense fallback={<Loader/>}>
+        <div className="Container">
+          <PageDefault/>
+        </div>
+      </Suspense>
     );
   }
 }

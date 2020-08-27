@@ -10,13 +10,13 @@ export default function Footer(){
             <div className="Content">
                 <div className="Social">
                     <a href={instagram}>
-                        <i class="fa fa-instagram" aria-hidden="true"> </i>
+                        <i className="fa fa-instagram" aria-hidden="true"> </i>
                     </a>
                     <a href={github}>
-                        <i class="fa fa-github" aria-hidden="true"> </i>
+                        <i className="fa fa-github" aria-hidden="true"> </i>
                     </a>
                     <a href={linkedin}>
-                        <i class="fa fa-linkedin" aria-hidden="true"> </i>
+                        <i className="fa fa-linkedin" aria-hidden="true"> </i>
                     </a>
                 </div>
                 <div className="Copy">
