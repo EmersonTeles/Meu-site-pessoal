@@ -15,7 +15,7 @@
     max-width: 80%;
     height: fit-content;
     text-align: center;
-    overflow: hidden;
+    overflow: show;
 }
 .portfolio .campo h1{
     margin-bottom: 3rem;
@@ -35,4 +35,8 @@
 }
 .portfolio .campo .fotos img{
     width: 100%;
+    transition: 0.15s ease-in-out;
+}
+.portfolio .campo .fotos img:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
