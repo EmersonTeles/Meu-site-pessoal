@@ -9,20 +9,20 @@ export default function Footer() {
     <div className="Footer">
       <div className="Content">
         <div className="Social">
-          <a href={instagram}>
+          <a href={instagram} target="_blank">
             <i className="fa fa-instagram" aria-hidden="true"> </i>
           </a>
-          <a href={github}>
+          <a href={github} target="_blank">
             <i className="fa fa-github" aria-hidden="true"> </i>
           </a>
-          <a href={linkedin}>
+          <a href={linkedin} target="_blank">
             <i className="fa fa-linkedin" aria-hidden="true"> </i>
           </a>
         </div>
         <div className="Copy">
-          <h3>&copy; 2020 by Emerson Teles. All rights reserved.</h3>
+          <h3>&copy; 2020 por Emerson Teles. Todos os direitos reservados.</h3>
         </div>
-        <h4>Built with React.</h4>
+        <h4>Feito em React.</h4>
       </div>
     </div>
   );

@@ -11,13 +11,11 @@ export default function About() {
           <h1>Oi, tudo bem?</h1>
           <h1>Me chamo Emerson Teles!</h1>
           <p className="biografia">
-            Eu sou um desenvolvedor web junior nascido e criado em Brasília, BR.
-            Tenho 18 anos e atualmente estudo engenharia de software na Universidade de Brasília (
-            <a className="unb" href={unb}>UnB</a>
-            ).
-            Também sou cinéfilo, músico e flerto fortíssimo com a fotografia.
+            Eu sou fotógrafo e "aspirante" a desenvolvedor web. Nascido e criado em Brasília,
+            tenho 18 anos e atualmente estudo engenharia de software na Universidade de Brasília (
+            <a className="unb" href={unb} target="_blank">UnB</a>
+            ). 
           </p>
-
         </div>
       </div>
     </div>
